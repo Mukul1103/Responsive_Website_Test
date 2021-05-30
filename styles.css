@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap');
+
+/*
+========================
+Header area start
+========================
+*/
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 100%;  
+	background: #fff;
+	color: #5e6e66;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.cust-container {
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.header-area {
+	background-image: url(assets/main-banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.overlay {
+	background: rgb(0, 0, 0, .3);
+	padding: 180px 0 250px;
+	padding-left: 3.094rem;
+}
+
+.header-area h4 {
+	font-size: 1.406rem;
+	font-weight: 700;
+	color: #ffffff;
+}
+
+.header-area p {
+	font-size: 0.75rem;
+  	font-weight: 500;
+  	color: #FFF;
+}
+
+.header-area a {
+	font-size: 0.563rem;
+  	font-weight: 700;
+ 	background-color: #de6c17;
+ 	color: #FFF;
+ 	display: inline-block;
+ 	padding: 8px 20px;
+ 	border-radius: 2px;
+}
+
+.header-area img {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+/*=== service-area start ===*/
+.service-area {
+	padding: 45px 0;
+}
+
+.serv-upper h2 {
+	font-size: 1.406rem;
+	font-weight: 700;
+	color: #36413c;
+	text-align: center;
+}
+
+.serv-upper p {
+	font-size: 0.75rem;
+  	font-weight: 500
+	color: #5e6e66;
+	text-align: center;
+}
+
+.serv-part .col-lg {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.serv-part {
+	padding: 20px 0;
+}
+
+.serv-item {
+	border-radius: 4px;
+  	box-shadow: 0 0 2px 0.5px rgba(0, 0, 0, 0.18);
+  	background-color: #ffffff;
+}
+
+.serv-item img {
+	width: 100%;
+	border-radius: 4px;
+}
+
+.serv-cnt {
+	padding: 10px 10px;
+}
+
+.serv-cnt h4 {
+	font-size: 0.875rem;
+	font-weight: 700;
+	color: #36413c;
+}
+
+.serv-cnt p {
+	font-size: 0.563rem;
+	font-weight: 500;
+	color: #5e6e66;
+	margin-bottom: 0px;
+}
+
+.serv-cnt a {
+	font-size: 0.563rem;
+	font-weight: 700;
+	color: #de6c17;
+}
+
+.serv-cnt a i {
+	font-size: 9px;
+	margin-left: 3px;
+}
+
+/*
+====================================
+Small Screen - Tablet
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+	.overlay {
+		padding: 90px 0 95px;
+		padding-left: 0;
+	}
+
+	.serv-item {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin: 8px 0;
+	}
+
+	.serv-cnt {
+		margin-left: 10px;
+	}
+
+	.serv-inner {
+		width: 50%;
+	}
+
+	.serv-inner img {
+		width: 100%;
+		border-radius: 4px 0 0 4px;
+	}
+
+	.serv-cnt {
+		width: 50%;
+		margin: 0;
+		padding: 0 20px;
+	}
+
+
+}
+
+
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 767px) {
+
+	.overlay {
+		padding: 90px 0 95px;
+		padding-left: 0;
+	}
+
+	.serv-item {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin: 8px 0;
+	}
+
+	.serv-cnt {
+		margin-left: 10px;
+	}
+
+	.serv-inner {
+		width: 48%;
+	}
+
+	.serv-inner img {
+		width: 100%;
+		border-radius: 4px 0 0 4px;
+	}
+
+	.serv-cnt {
+		width: 52%;
+		margin: 0;
+		padding: 0 14px;
+	}
+
+
+
+}
